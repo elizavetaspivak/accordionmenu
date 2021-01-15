@@ -1,0 +1,17 @@
+.el{
+    overflow: hidden;
+}
+
+.text{
+    scale: 1;
+    position: absolute;
+    top: 0;
+    transition: .2s;
+    opacity: 0;
+}
+
+.open.el .text{
+    position: static;
+    scale: 0;
+    opacity: 1;
+}
